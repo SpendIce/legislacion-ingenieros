@@ -1,0 +1,161 @@
+/* Hoja de estilos compartida — Legislación para Ingenieros.
+   Toda lección y referencia la enlaza: un solo curso, no una pila de páginas sueltas. */
+
+:root {
+  --papel: #fffff8;
+  --tinta: #1a1a1a;
+  --tinta-suave: #5a5a52;
+  --linea: #d9d6c7;
+  --acento: #7a1f1f;
+  --acento-suave: #f3e9e2;
+  --ok: #1f6b3a;
+  --ok-suave: #e6f2e9;
+  --mal: #9b2c2c;
+  --mal-suave: #f8e7e5;
+  --aviso: #8a6100;
+  --aviso-suave: #fbf3d9;
+  --caja: #f6f5ea;
+  --medida: 62ch;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --papel: #151512;
+    --tinta: #e8e6da;
+    --tinta-suave: #a5a394;
+    --linea: #3a392f;
+    --acento: #e0a08f;
+    --acento-suave: #2a201c;
+    --ok: #8fd0a3;
+    --ok-suave: #17271c;
+    --mal: #eda09a;
+    --mal-suave: #2b1917;
+    --aviso: #e2c36a;
+    --aviso-suave: #2a2413;
+    --caja: #1e1e19;
+  }
+}
+
+* { box-sizing: border-box; }
+
+html { font-size: 18px; }
+
+body {
+  margin: 0;
+  padding: 2.5rem 1rem 5rem;
+  background: var(--papel);
+  color: var(--tinta);
+  font-family: "ET Book", "Iowan Old Style", Palatino, "Palatino Linotype", "Book Antiqua", Georgia, serif;
+  line-height: 1.55;
+  text-rendering: optimizeLegibility;
+}
+
+main, header.portada, footer.pie { max-width: var(--medida); margin: 0 auto; }
+
+h1, h2, h3 { font-weight: 400; line-height: 1.2; }
+h1 { font-size: 2.1rem; margin: 0.2rem 0 0.6rem; }
+h2 { font-size: 1.45rem; font-style: italic; margin: 2.6rem 0 0.7rem; }
+h3 { font-size: 1.1rem; font-style: italic; margin: 1.6rem 0 0.4rem; }
+
+p { margin: 0 0 0.9rem; }
+a { color: var(--acento); text-underline-offset: 0.15em; }
+strong { font-weight: 600; }
+ul, ol { padding-left: 1.3rem; margin: 0 0 0.9rem; }
+li { margin-bottom: 0.3rem; }
+hr { border: 0; border-top: 1px solid var(--linea); margin: 2.5rem 0; }
+
+.migas { font-size: 0.8rem; color: var(--tinta-suave); letter-spacing: 0.04em; text-transform: uppercase; }
+.migas a { color: inherit; }
+.bajada { font-size: 1.15rem; font-style: italic; color: var(--tinta-suave); margin-bottom: 1.4rem; }
+.meta { font-size: 0.82rem; color: var(--tinta-suave); border-top: 1px solid var(--linea); border-bottom: 1px solid var(--linea); padding: 0.5rem 0; display: flex; flex-wrap: wrap; gap: 0.3rem 1.4rem; }
+
+/* Citas: toda afirmación apunta a su fuente */
+.cita { font-size: 0.78rem; color: var(--tinta-suave); white-space: nowrap; }
+.cita a { color: inherit; }
+
+.caja { background: var(--caja); border-left: 3px solid var(--linea); padding: 0.8rem 1rem; margin: 1.1rem 0; }
+.caja > :last-child { margin-bottom: 0; }
+.caja.logro { border-left-color: var(--ok); }
+.caja.ojo { border-left-color: var(--aviso); background: var(--aviso-suave); }
+.caja.fuente { border-left-color: var(--acento); background: var(--acento-suave); }
+.caja .rotulo { display: block; font-size: 0.75rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--tinta-suave); margin-bottom: 0.25rem; }
+
+table { border-collapse: collapse; width: 100%; margin: 1rem 0 1.3rem; font-size: 0.9rem; }
+th, td { text-align: left; vertical-align: top; padding: 0.4rem 0.6rem 0.4rem 0; border-bottom: 1px solid var(--linea); }
+th { font-weight: 600; border-bottom: 1.5px solid var(--tinta); }
+td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+
+dl.glosario dt { font-weight: 600; margin-top: 0.9rem; }
+dl.glosario dd { margin: 0.1rem 0 0 0; }
+
+/* Árbol / esquema en texto */
+pre.esquema { font-family: "JetBrains Mono", ui-monospace, Menlo, Consolas, monospace; font-size: 0.72rem; line-height: 1.45; background: var(--caja); padding: 0.9rem 1rem; overflow-x: auto; margin: 1rem 0 1.3rem; }
+
+/* ---------- Componentes interactivos (assets/leccion.js) ---------- */
+.ejercicio { border-top: 1px solid var(--linea); padding: 1.1rem 0 0.4rem; }
+.ejercicio .num-ej { font-size: 0.75rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--tinta-suave); }
+.ejercicio .consigna { font-size: 1.02rem; margin: 0.2rem 0 0.7rem; }
+
+textarea {
+  width: 100%; min-height: 5.2rem; padding: 0.6rem 0.7rem; resize: vertical;
+  font: inherit; font-size: 0.92rem; color: var(--tinta);
+  background: transparent; border: 1px solid var(--linea); border-radius: 2px;
+}
+textarea:focus, button:focus-visible { outline: 2px solid var(--acento); outline-offset: 2px; }
+
+button {
+  font: inherit; font-size: 0.88rem; color: var(--tinta); cursor: pointer;
+  background: transparent; border: 1px solid var(--tinta-suave); border-radius: 2px;
+  padding: 0.4rem 0.8rem; margin: 0.5rem 0.4rem 0.3rem 0;
+}
+button:hover:not(:disabled) { border-color: var(--acento); color: var(--acento); }
+button:disabled { cursor: default; opacity: 0.75; }
+button.primario { border-color: var(--acento); color: var(--acento); }
+
+.opciones { display: grid; gap: 0.4rem; margin: 0.5rem 0; }
+.opciones button { margin: 0; text-align: left; padding: 0.55rem 0.8rem; font-size: 0.95rem; }
+.opciones button.correcta { border-color: var(--ok); background: var(--ok-suave); color: var(--ok); }
+.opciones button.incorrecta { border-color: var(--mal); background: var(--mal-suave); color: var(--mal); }
+
+.devolucion { font-size: 0.9rem; padding: 0.6rem 0.8rem; margin: 0.5rem 0 0.8rem; border-left: 3px solid var(--linea); background: var(--caja); }
+.devolucion.bien { border-left-color: var(--ok); }
+.devolucion.mal { border-left-color: var(--mal); }
+.devolucion .veredicto { font-weight: 600; }
+.modelo { font-size: 0.92rem; padding: 0.7rem 0.9rem; margin: 0.5rem 0; background: var(--caja); border-left: 3px solid var(--acento); }
+.autoeval button.elegido { background: var(--acento-suave); border-color: var(--acento); color: var(--acento); }
+
+.lista-ordenar { list-style: none; padding: 0; margin: 0.6rem 0; counter-reset: paso; }
+.lista-ordenar li { counter-increment: paso; display: flex; align-items: center; gap: 0.5rem; padding: 0.35rem 0.5rem; margin-bottom: 0.3rem; border: 1px solid var(--linea); border-radius: 2px; font-size: 0.9rem; }
+.lista-ordenar li::before { content: counter(paso) "."; color: var(--tinta-suave); min-width: 1.6rem; font-variant-numeric: tabular-nums; }
+.lista-ordenar li span { flex: 1; }
+.lista-ordenar li button { margin: 0; padding: 0.1rem 0.5rem; }
+.lista-ordenar li.en-su-lugar { border-color: var(--ok); background: var(--ok-suave); }
+.lista-ordenar li.fuera-de-lugar { border-color: var(--mal); background: var(--mal-suave); }
+
+.guia label { display: block; font-size: 0.92rem; margin-bottom: 0.35rem; }
+.guia input { margin-right: 0.45rem; }
+
+#resultado { border: 1.5px solid var(--tinta); padding: 1rem 1.1rem; margin: 2rem 0; }
+#resultado .puntaje { font-size: 1.6rem; }
+#resultado textarea { font-family: ui-monospace, Menlo, Consolas, monospace; font-size: 0.75rem; min-height: 8rem; }
+
+.navegacion { display: flex; justify-content: space-between; gap: 1rem; font-size: 0.9rem; margin-top: 2.5rem; padding-top: 0.9rem; border-top: 1px solid var(--linea); }
+
+/* Índice */
+ol.indice { list-style: none; padding: 0; counter-reset: lec; }
+ol.indice li { counter-increment: lec; padding: 0.7rem 0; border-bottom: 1px solid var(--linea); display: grid; grid-template-columns: 2.4rem 1fr; }
+ol.indice li::before { content: counter(lec, decimal-leading-zero); color: var(--tinta-suave); font-variant-numeric: tabular-nums; }
+ol.indice .que { display: block; font-size: 0.85rem; color: var(--tinta-suave); }
+
+@media print {
+  html { font-size: 11pt; }
+  body { padding: 0; background: #fff; color: #000; }
+  button, textarea, .navegacion, #resultado, .no-imprimir { display: none !important; }
+  a { color: inherit; text-decoration: none; }
+  .caja, pre.esquema, .modelo { background: none; border: 1px solid #999; }
+  h2 { break-after: avoid; }
+  table, .caja, dl.glosario dt, dl.glosario dd { break-inside: avoid; }
+}
+
+/* Generado en el deploy: cita de material de cátedra sin link */
+.cita-local { border-bottom: 1px dotted currentColor; opacity: .85; }
