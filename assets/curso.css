@@ -70,7 +70,7 @@ hr { border: 0; border-top: 1px solid var(--linea); margin: 2.5rem 0; }
 .meta { font-size: 0.82rem; color: var(--tinta-suave); border-top: 1px solid var(--linea); border-bottom: 1px solid var(--linea); padding: 0.5rem 0; display: flex; flex-wrap: wrap; gap: 0.3rem 1.4rem; }
 
 /* Citas: toda afirmación apunta a su fuente */
-.cita { font-size: 0.78rem; color: var(--tinta-suave); white-space: nowrap; }
+.cita { font-size: 0.78rem; color: var(--tinta-suave); overflow-wrap: anywhere; }
 .cita a { color: inherit; }
 
 .caja { background: var(--caja); border-left: 3px solid var(--linea); padding: 0.8rem 1rem; margin: 1.1rem 0; }
@@ -156,6 +156,10 @@ ol.indice .que { display: block; font-size: 0.85rem; color: var(--tinta-suave); 
   h2 { break-after: avoid; }
   table, .caja, dl.glosario dt, dl.glosario dd { break-inside: avoid; }
 }
+
+/* Recorridos breves dentro de las lecciones ampliadas. */
+.ruta ul { margin-bottom: .6rem; }
+h1, h2, h3, td, th { overflow-wrap: break-word; }
 
 /* Generado en el deploy: cita de material de cátedra sin link */
 .cita-local { border-bottom: 1px dotted currentColor; opacity: .85; }
