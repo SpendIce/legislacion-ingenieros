@@ -16,7 +16,7 @@ window.LECCION = {
     },
     {
       p: "¿Cuáles son los «rostros» del obrar culposo? Definí cada uno.",
-      r: "<strong>Negligencia:</strong> hacer menos de lo que se debía. <strong>Imprudencia:</strong> hacer más de lo que se debía. <strong>Impericia:</strong> falta de conocimiento o destreza en el arte o profesión. En los tres falta la malicia: no hay intención de dañar."
+      r: "<strong>Negligencia:</strong> no hacer lo que la diligencia exigía (la cátedra: «hacer menos de lo que se debía»). <strong>Imprudencia:</strong> actuar con apuro o sin las precauciones debidas, creando o agravando un riesgo (la cátedra: «hacer más de lo que se debía»). <strong>Impericia:</strong> falta de conocimiento o destreza en el arte o profesión (art. 1724; no está en la diapositiva). En los tres falta la malicia: no hay intención de dañar."
     }
   ],
   quiz: [
@@ -30,7 +30,13 @@ window.LECCION = {
       p: "Un técnico omite un control que el protocolo exigía y se produce un daño. Hizo <em>menos</em> de lo que debía. Eso es…",
       o: ["Negligencia", "Imprudencia", "Impericia", "Dolo"],
       c: 0,
-      e: "Negligencia = hacer menos de lo debido. Imprudencia = hacer de más. Las dos son formas de culpa."
+      e: "Negligencia = no hacer lo debido (omitió el control). Imprudencia = actuar sin la precaución debida. Las dos son formas de culpa."
+    },
+    {
+      p: "Para terminar antes, un operario iza con la grúa una carga que supera el límite de la placa, y el cable se corta. Eso es…",
+      o: ["Imprudencia", "Negligencia", "Impericia", "Dolo"],
+      c: 0,
+      e: "Imprudencia: hizo algo que creó el riesgo (se apuró y excedió el límite). Es el «hacer de más» de la cátedra. No hubo intención de dañar, así que no es dolo."
     },
     {
       p: "Alguien no quiere dañar, pero se representa que el daño puede ocurrir y sigue adelante igual. Hay…",

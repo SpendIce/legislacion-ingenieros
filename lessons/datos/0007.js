@@ -55,6 +55,18 @@ window.LECCION = {
       o: ["Empleo público", "Suministro periódico", "Locación administrativa", "Consultoría técnica"],
       c: 0,
       e: "Art. 5: quedan excluidos, entre otros, los de empleo público, las compras por caja chica, los celebrados con Estados extranjeros u organismos multilaterales y los de crédito público."
+    },
+    {
+      p: "Sin pedirle conformidad al proveedor, ¿hasta qué porcentaje del monto total puede la Administración aumentar el contrato?",
+      o: ["20 %", "10 %", "35 %", "50 %"],
+      c: 0,
+      e: "Hasta el 20 % es facultad unilateral. Por encima necesita la conformidad del proveedor, y nunca puede pasar del 35 %. Siempre con los mismos precios unitarios."
+    },
+    {
+      p: "Proveés insumos en entregas mensuales y una devaluación fuerte hace que el precio adjudicado ya no cubra tus costos. ¿Qué podés pedir?",
+      o: ["Renegociación de precios", "Rescisión por culpa", "Exención por mora", "Adjudicación simple directa"],
+      c: 0,
+      e: "Renegociación: en suministros de cumplimiento sucesivo o servicios, cuando circunstancias externas y sobrevinientes afectan de modo decisivo el equilibrio contractual. Hay que solicitarla; mientras tanto, seguís obligado a cumplir."
     }
   ],
   casos: [
@@ -64,11 +76,11 @@ window.LECCION = {
       guia: [
         "Identifiqué que es un <strong>contrato administrativo</strong>: parte estatal, fin público, régimen exorbitante.",
         "El aumento es ejercicio del <strong>ius variandi</strong> / opciones a favor de la Administración.",
-        "Límite cuantitativo: es facultad unilateral hasta el <strong>20 %</strong> (15 % está dentro); por encima de eso se necesita la conformidad del proveedor, y en ningún caso puede exceder el <strong>35 %</strong>.",
+        "Límite cuantitativo de las <em>opciones a favor de la Administración</em>: es facultad unilateral hasta el <strong>20 %</strong> (15 % está dentro); por encima de eso se necesita la conformidad del proveedor, y en ningún caso puede exceder el <strong>35 %</strong>.",
         "Condición: debe hacerse <strong>sin variar las condiciones ni los precios unitarios</strong> adjudicados.",
-        "La exención por mora es una <strong>cláusula exorbitante</strong> que la cátedra enumera expresamente; en un contrato privado sería ilícita.",
+        "La exención por mora en el pago es una <strong>cláusula exorbitante</strong> que la cátedra enumera expresamente; en un contrato privado sería ilícita. Entonces el reclamo de intereses no prospera.",
         "Marqué el límite de toda cláusula exorbitante: <strong>la Constitución y la razonabilidad</strong>.",
-        "Por el salto de costos: <strong>renegociación</strong> — procede en suministros de cumplimiento sucesivo o servicios cuando circunstancias externas y sobrevinientes afectan de modo decisivo el equilibrio contractual."
+        "Por el salto de costos: pedir la <strong>renegociación</strong>. Procede en suministros de cumplimiento sucesivo o servicios cuando circunstancias externas y sobrevinientes afectan de modo decisivo el equilibrio contractual. «No hay mucho que hacer» no alcanza: el proveedor tiene esta herramienta, y mientras tanto sigue obligado a entregar."
       ]
     }
   ]

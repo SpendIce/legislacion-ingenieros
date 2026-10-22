@@ -33,10 +33,10 @@ window.LECCION = {
       e: "Unidad 1. Doctrina = estudiosos. Jurisprudencia = tribunales."
     },
     {
-      p: "Un operario, por apurarse, saltea el bloqueo de seguridad y hace <em>más</em> de lo que debía. Su culpa toma la forma de…",
+      p: "Un operario, por apurarse, maneja el autoelevador a toda velocidad por un pasillo con gente y atropella a un compañero. Su culpa toma la forma de…",
       o: ["Imprudencia", "Negligencia", "Impericia", "Dolo"],
       c: 0,
-      e: "Unidad 3. Imprudencia = hacer de más; negligencia = hacer de menos."
+      e: "Unidad 3. Imprudencia = actuar sin la precaución debida, creando el riesgo (la cátedra: «hacer de más»). Negligencia = no hacer lo debido («hacer de menos»)."
     },
     {
       p: "Un hecho humano voluntario y lícito cuyo fin inmediato es crear, modificar o extinguir derechos es un…",
@@ -96,7 +96,7 @@ window.LECCION = {
         "Condena <strong>penal</strong>: naturaleza <strong>punitoria</strong> — castiga al autor; exige que la conducta esté <strong>tipificada</strong>.",
         "Presupuesto 1: acción antijurídica no justificada (retirar la baranda).",
         "Presupuesto 2: daño cierto — emergente (gastos médicos), lucro cesante, extrapatrimonial.",
-        "Presupuesto 3: factor de atribución subjetivo — culpa por <strong>imprudencia</strong> (hizo de más) o negligencia.",
+        "Presupuesto 3: factor de atribución subjetivo — culpa por <strong>imprudencia</strong> (retiró la baranda: un acto que creó el riesgo) o negligencia.",
         "Presupuesto 4: relación causal entre el retiro de la baranda y la caída.",
         "Recordé el principio rector: <em>neminem laedere</em> — no dañar a otro."
       ]

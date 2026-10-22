@@ -12,7 +12,11 @@ window.LECCION = {
     },
     {
       p: "¿Qué es el pacto comisorio tácito (o cláusula resolutoria implícita)?",
-      r: "Es un elemento <strong>natural</strong> de los contratos con prestaciones recíprocas: aunque nadie lo escriba, la parte cumplidora puede optar por resolver el contrato frente al incumplimiento de la otra. El <em>expreso</em> es el que las partes pactan explícitamente como cláusula accidental."
+      r: "Es un elemento <strong>natural</strong> de los contratos con prestaciones recíprocas: aunque nadie lo escriba, la parte cumplidora puede optar por resolver el contrato frente al incumplimiento de la otra. El <em>expreso</em> es el que las partes pactan explícitamente como cláusula accidental. El Código vigente los llama cláusula resolutoria <em>implícita</em> (art. 1087) y <em>expresa</em> (art. 1086)."
+    },
+    {
+      p: "Con el pacto comisorio <em>tácito</em>, ¿qué condiciones hacen falta para resolver? ¿Y qué cambia si el pacto es <em>expreso</em>?",
+      r: "<strong>Tácito</strong> (art. 1088): (1) un incumplimiento <strong>esencial</strong>, y si es parcial, que prive sustancialmente de lo esperado; (2) deudor <strong>en mora</strong>; (3) <strong>emplazarlo</strong> a cumplir en un plazo no menor de <strong>15 días</strong>, bajo apercibimiento expreso de resolver. Al vencer el plazo, queda resuelto de pleno derecho. No hace falta emplazar si venció un plazo esencial, si el deudor dijo que no cumplirá o si cumplir es imposible. <strong>Expreso</strong> (art. 1086): el incumplimiento es el que identificó la cláusula y basta con <strong>comunicarlo fehacientemente</strong>, sin plazo de gracia. En los dos casos, quien resuelve tiene que ser <strong>parte cumplidora</strong>; si no, la otra puede oponerse (art. 1078 inc. c)."
     },
     {
       p: "Forma <em>ad solemnitatem</em> y <em>ad probationem</em>: explicá cada una con el ejemplo de clase.",
@@ -61,6 +65,30 @@ window.LECCION = {
       o: ["Aleatorio", "Conmutativo", "Gratuito", "Unilateral"],
       c: 0,
       e: "Aleatorio (juego, apuesta, rifa) se opone a conmutativo, donde las partes pueden estimar ventajas y sacrificios al momento de contratar."
+    },
+    {
+      p: "El contrato no dice nada sobre resolución y el comprador no paga. Para resolver por cláusula implícita, el vendedor debe emplazarlo a cumplir en un plazo no menor de…",
+      o: ["Quince días", "Diez días", "Treinta días", "Cinco días"],
+      c: 0,
+      e: "Art. 1088 inc. c: no menos de 15 días, bajo apercibimiento expreso de resolver, salvo que los usos o la índole de la prestación justifiquen uno menor."
+    },
+    {
+      p: "El contrato dice: «si el comprador no paga la segunda cuota, el vendedor podrá resolver». El comprador no paga. Para resolver, el vendedor debe…",
+      o: ["Comunicarlo fehacientemente al comprador", "Emplazarlo quince días antes", "Pedírselo siempre al juez", "Esperar el vencimiento final"],
+      c: 0,
+      e: "Es una cláusula resolutoria expresa (pacto comisorio expreso, art. 1086): la resolución surte efecto desde que se comunica fehacientemente. El emplazamiento de 15 días es propio de la implícita."
+    },
+    {
+      p: "Un alquiler se resuelve porque el inquilino dejó de pagar. ¿Qué pasa con los alquileres de los meses que ya usó y pagó?",
+      o: ["Quedan firmes", "Se devuelven", "Se anulan", "Se reajustan"],
+      c: 0,
+      e: "Art. 1081 inc. b: en los contratos bilaterales, las prestaciones cumplidas quedan firmes si son equivalentes, divisibles y recibidas sin reserva. Mes de uso y mes de alquiler lo son. La retroactividad alcanza solo lo desparejo: lo pagado por adelantado o el uso impago."
+    },
+    {
+      p: "El vendedor debía entregar primero y no entregó; el comprador tampoco pagó. Si el vendedor declara la resolución, el comprador puede…",
+      o: ["Oponerse a la extinción", "Pedir la nulidad absoluta", "Cobrar la cláusula penal", "Aceptarla sin poder discutir"],
+      c: 0,
+      e: "Art. 1078 inc. c: la otra parte puede oponerse si quien declara la extinción no cumplió lo que debía. Para resolver hay que ser parte cumplidora."
     }
   ],
   casos: [
@@ -72,8 +100,9 @@ window.LECCION = {
         "<strong>Excepción de incumplimiento</strong> (art. 1031): puedo suspender mis entregas hasta que pague u ofrezca pagar.",
         "<strong>Pacto comisorio tácito</strong>: aunque el contrato no lo diga, como parte cumplidora puedo resolver ante el incumplimiento de la otra.",
         "<strong>Cláusula penal</strong>: la multa de USD 5.000 es una cláusula accidental que prefija la indemnización.",
-        "Requisito para resolver: ser <strong>parte cumplidora</strong> (acreedor insatisfecho que cumplió lo suyo).",
+        "Requisito para resolver: ser <strong>parte cumplidora</strong> (acreedor insatisfecho que cumplió lo exigible). Sin cláusula expresa: incumplimiento esencial, cliente en mora y emplazamiento de al menos 15 días bajo apercibimiento de resolver (art. 1088).",
         "Distinguí: <strong>resolución</strong> = por incumplimiento, causa sobreviniente, efecto retroactivo; <strong>rescisión</strong> = hacia el futuro, deja subsistentes los efectos ya producidos.",
+        "Lo ya entregado y pagado (hitos 1 y 2) <strong>queda firme</strong>: son prestaciones equivalentes y divisibles (art. 1081 inc. b). Lo desparejo se restituye: si entregaste el hito 3 y no te lo pagó, te debe su valor, más los daños.",
         "Invoqué <strong>pacta sunt servanda</strong>: el contrato válidamente celebrado es obligatorio para las partes."
       ]
     }
