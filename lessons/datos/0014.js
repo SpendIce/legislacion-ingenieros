@@ -15,8 +15,8 @@ window.LECCION = {
       r: "Conjunto de <strong>normas, reglas y principios</strong> (religiosos, morales y jurídicos) tan fundamentales que sin ellos la vida en común sería caótica. Los particulares no lo pueden alterar y una ley extranjera que lo contradiga no se aplica. <strong>Le pone un freno a la libertad</strong> (art. 19 CN). Plaza: podés pasear, pero no rociar veneno (orden público), ni tener actitudes obscenas (moral pública), ni golpear a alguien (derecho de un tercero). <strong>Orden jurídico:</strong> el conjunto de normas ordenadas jerárquicamente, donde la inferior no contradice a la superior. Es el sistema completo; el orden público es el núcleo que no se negocia. <span class='cita'>[Unidad 1 (resumen)]</span>"
     },
     {
-      p: "Fuentes del Derecho: nombralas con su peso. Después, los tres ejes de clasificación.",
-      r: "<strong>Ley:</strong> obligatoria. <strong>Jurisprudencia:</strong> «sin poseer obligatoriedad, se impone». <strong>Doctrina:</strong> no obliga, pero los jueces la citan para fundamentar. <strong>Costumbre:</strong> repetición espontánea de conductas que adquiere fuerza de ley. La diapositiva suma equidad y principios generales. Ejes: <strong>origen</strong> (primigenias / otras), <strong>exteriorización</strong> (formales: ley y contratos / materiales: su idea u origen / interpretativas) e <strong>inmediatez</strong> (directas: la ley / indirectas: lo que la produce). <span class='cita'>[Unidad 1 (resumen) · Clase U I, diap. 9–12]</span>"
+      p: "Fuentes del Derecho: nombralas con su peso. Después, las tres clasificaciones de la diapositiva.",
+      r: "<strong>Ley:</strong> obligatoria. <strong>Jurisprudencia:</strong> «sin poseer obligatoriedad, se impone». <strong>Doctrina:</strong> no obliga, pero los jueces la citan para fundamentar. <strong>Costumbre:</strong> repetición espontánea de conductas que adquiere fuerza de ley. La diapositiva suma equidad y principios generales. Clasificaciones: <strong>primigenias</strong> / otras; <strong>formales</strong> (ley y contratos) / <strong>materiales</strong> (su idea, causa u origen), más los instrumentos interpretativos; y <strong>directas</strong> (la ley) / <strong>indirectas</strong> (su razón, causa u origen). Las dos últimas son casi la misma distinción con distinto nombre. <span class='cita'>[Unidad 1 (resumen) · Clase U I, diap. 9–12]</span>"
     },
     {
       p: "¿Quién sanciona, quién promulga y desde cuándo es obligatoria una ley?",
@@ -49,10 +49,10 @@ window.LECCION = {
       e: "Según el resumen, el orden público incluye normas de Derecho Privado que limitan la autonomía de los particulares, «sobre todo en materia de Derecho de Familia y Laboral». La jurisprudencia, en cambio, «sin poseer obligatoriedad, se impone»."
     },
     {
-      p: "La ley y los contratos son fuentes <em>formales</em>. ¿Qué pregunta responde ese eje de clasificación?",
-      o: ["¿Cómo se exterioriza el precepto?", "¿Cuál es la raíz originaria?", "¿Es norma o su causa?", "¿Quién dictó la norma jurídica?"],
+      p: "Según la diapositiva, ¿qué tienen en común la fuente <em>material</em> y la fuente <em>indirecta</em>?",
+      o: ["Ambas son el origen de otras", "Ambas son fuentes obligatorias por sí", "Ambas son instrumentos para interpretar normas", "Ambas equivalen a la ley escrita"],
       c: 0,
-      e: "Exteriorización: formales, materiales e interpretativas. «¿Cuál es la raíz?» corresponde al eje del origen (primigenias). «¿Es la norma o lo que la produce?», al de la inmediatez (directas e indirectas)."
+      e: "Material: «la idea, causa u origen de las fuentes formales». Indirecta: «la razón, causa u origen de las fuentes directas». Casi la misma definición: formal ≈ directa, material ≈ indirecta. Los instrumentos interpretativos son otro grupo (jurisprudencia, equidad, usos, principios, doctrina)."
     },
     {
       p: "Un proyecto aprobado por las dos Cámaras ya tiene fuerza de ley. ¿Desde cuándo es obligatorio para la población?",
